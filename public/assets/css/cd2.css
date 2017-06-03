@@ -1,0 +1,110 @@
+table {
+   border-collapse: collapse;
+}
+td {
+   width: 70px;
+   height: 20px;
+   padding: 0px;
+}
+.color0 {
+   text-align: center;
+   background-color: rgba(153, 255, 204, 0.3);
+}
+.color1 {
+   text-align: center;
+   background-color: rgba(255, 0, 0, 0.3);
+}
+.color2 {
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.3);
+}
+.color3 {
+   text-align: center;
+   background-color: rgba(255, 255, 0, 0.3);
+}
+.color4 {
+   text-align: center;
+   background-color: rgba(255, 0, 255, 0.3);
+}
+.color5 {
+   text-align: center;
+   background-color: rgba(0, 255, 0, 0.3);
+}
+.color6 {
+   text-align: center;
+   background-color: rgba(0, 255, 255, 0.3);
+}
+.color7 {
+   text-align: center;
+   background-color: rgba(0, 0, 255, 0.3);
+}
+.color8 {
+   text-align: center;
+   background-color: rgba(23, 0, 151, 0.3);
+}
+.ol-popup {
+   position: absolute;
+   background-color: white;
+   -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+   filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+   padding: 15px;
+   border-radius: 10px;
+   border: 1px solid #cccccc;
+   bottom: 12px;
+   left: -50px;
+   min-width: 210px;
+   /*top: auto;
+   bottom: 2em;*/
+}
+.ol-popup:after, .ol-popup:before {
+   top: 100%;
+   border: solid transparent;
+   content: " ";
+   height: 0;
+   width: 0;
+   position: absolute;
+   pointer-events: none;
+}
+.ol-popup:after {
+   border-top-color: white;
+   border-width: 10px;
+   left: 48px;
+   margin-left: -10px;
+}
+.ol-popup:before {
+   border-top-color: #cccccc;
+   border-width: 11px;
+   left: 48px;
+   margin-left: -11px;
+}
+.ol-popup-closer {
+   text-decoration: none;
+   position: absolute;
+   top: 2px;
+   right: 8px;
+}
+.ol-popup-closer:after {
+   content: "✖";
+}
+body, html, #map { width: 100%;height: 100%;margin: 0; }
+    .ol-mouse-position {
+        top: auto;
+        bottom: 2em;
+    }
+    .ol-overviewmap {
+        bottom: 2em;
+    }
+    .ol-zoomslider {
+        top: 7em;
+    }
+    .ol-rotate {
+        top: 2.5em;
+    }
+    .draw-point {
+        right: 3em;
+        top: .5em;
+    }
+range{
+/*padding: 5px;*/
+max-height: 250;
+}

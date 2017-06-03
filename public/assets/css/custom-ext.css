@@ -1,0 +1,141 @@
+/*.x-panel{
+  overflow: visible;
+}*/
+#region_north_panel{
+  overflow: visible;
+}
+/*.x-panel-body{
+  overflow: visible;
+}*/
+#region_north_panel-body{
+  overflow: visible;
+}
+
+#region_east_panel-body{
+	background: #e7e7e7;
+}
+#region_east_panel .x-panel-body{
+	background: #e7e7e7;
+	border-width: 0px; 
+  border-style: hidden; 
+}
+#region_west_panel .x-panel-body{
+	border-width: 0px; 
+}
+#region_west_panel .x-tab-bar-body{
+  background-color: #fff;
+}
+#region_west_panel .x-tab-default{
+  border-color: #000;
+}
+#region_west_panel .x-tab-default-top{
+  background-color: #000;
+}
+#region_west_panel .x-tab-inner-default{
+  color: #fff;
+}
+#region_west_panel .x-tab.x-tab-active.x-tab-default{
+  background-color: #fff;
+  border-color: #fff;
+}
+#region_west_panel .x-tab.x-tab-active.x-tab-default .x-tab-inner-default{
+  color: #C7383E;
+}
+/*.x-tab-default-top .x-tab-focus .x-tab-active{
+  box-shadow: 10px 10px 5px #fff;
+}*/
+#region_center_panel .x-panel-body{
+  border-width: 0px; 
+  border-style: hidden; 
+}
+#region_center_panel .x-toolbar-default{
+  background-color: #F9F9F9;
+}
+#region_north_panel .x-panel-body-default{
+  font-size: 12px;
+  line-height: 1.42857143;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-width: 1px;
+  border-style: solid;
+}
+#region_east_panel .x-tool
+{
+    left: 0 !important;
+}
+#region_east_panel .x-title-text{
+	padding-left: 20px !important;
+}
+#region_east_panel .x-panel-header-default{
+  background-color: #BEBEBE;
+}
+#region_east_panel .x-panel-header-default .x-tool-img{
+  background-color: #BEBEBE;
+}
+#west_treelayer_panel-body .x-tree-icon-parent-expanded {
+  background-image: url(../img/place.png);
+  background-size: 100%;
+}
+#west_treelayer_panel-body .x-tree-icon-leaf{
+  background-image: url(../img/map.png);
+  background-size: 100%;
+}
+#region_east_panel .filter-button{
+  background: #C7383E;
+  border-radius: 5px;
+  border-color: #C7383E;
+}
+#region_east_panel .upload-button{
+  background: #22A24B;
+  border-radius: 5px;
+  border-color: #22A24B;
+}
+#region_east_panel .save-button{
+  background: #4686A1;
+  border-radius: 5px;
+  border-color: #4686A1;
+}
+#region_east_panel .submit-button{
+  background: #C7383E;
+  border-radius: 5px;
+  border-color: #C7383E;
+}
+#tb_left_expand{
+  border-color: transparent;
+  background-color: transparent;
+  padding: 0px;
+}
+#tb_left_expand .fa-2x{
+  font-size: 1.5em;
+}
+#region_north_panel input{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#listmap_group .x-tree-checkbox{
+  display: none;
+}
+
+.x-toolbar-footer{
+  background-color: transparent;
+}
+
+#legend-chart{
+  font-size: 14px;
+  font-weight: 300;
+  /*font-family: 'Arial,Helvetica,sans-serif;';*/
+}

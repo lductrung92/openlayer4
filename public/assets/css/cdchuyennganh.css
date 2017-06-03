@@ -1,0 +1,132 @@
+table {
+   border-collapse: collapse;
+}
+td {
+   width: 70px;
+   height: 20px;
+   padding: 0px;
+}
+.color0 {
+   text-align: center;
+   background-color: rgba(121, 219, 255, 0.7);
+}
+.color1 {
+   text-align: center;
+   background-color: rgba(150, 255, 151, 0.7);
+}
+.color2 {
+   text-align: center;
+   background-color: rgba(150, 132, 151, 0.7);
+}
+.color3 {
+   text-align: center;
+   background-color: rgba(150, 81, 151, 0.7);
+}
+.color4 {
+   text-align: center;
+   background-color: rgba(183, 0, 151, 0.7);
+}
+.color5 {
+   text-align: center;
+   background-color: rgba(111, 0, 151, 0.7);
+}
+.color6 {
+   text-align: center;
+   background-color: rgba(62, 0, 151, 0.7);
+}
+.color7 {
+   text-align: center;
+   background-color: rgba(23, 0, 151, 0.7);
+}
+.color8 {
+   text-align: center;
+   background-color: rgba(154, 90, 74, 0.7);
+}
+.ol-popup {
+   position: absolute;
+   background-color: white;
+   -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+   filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+   padding: 15px;
+   border-radius: 10px;
+   border: 1px solid #cccccc;
+   bottom: 12px;
+   left: -50px;
+   min-width: 210px;
+   /*top: auto;
+   bottom: 2em;*/
+}
+.ol-popup:after, .ol-popup:before {
+   top: 100%;
+   border: solid transparent;
+   content: " ";
+   height: 0;
+   width: 0;
+   position: absolute;
+   pointer-events: none;
+}
+.ol-popup:after {
+   border-top-color: white;
+   border-width: 10px;
+   left: 48px;
+   margin-left: -10px;
+}
+.ol-popup:before {
+   border-top-color: #cccccc;
+   border-width: 11px;
+   left: 48px;
+   margin-left: -11px;
+}
+.ol-popup-closer {
+   text-decoration: none;
+   position: absolute;
+   top: 2px;
+   right: 8px;
+}
+.ol-popup-closer:after {
+   content: "✖";
+}
+body, html, #map { width: 100%;height: 100%;margin: 0; }
+    .ol-mouse-position {
+        top: auto;
+        bottom: 2em;
+    }
+    .ol-overviewmap {
+        bottom: 2em;
+    }
+    .ol-zoomslider {
+        top: 7em;
+    }
+    .ol-rotate {
+        top: 2.5em;
+    }
+    .draw-point {
+        right: 3em;
+        top: .5em;
+    }
+range{
+/*padding: 5px;*/
+max-height: 250;
+}
+ul.legen_dtu{
+  padding-left:15px;
+  padding-top:10px;
+}
+ul.legen_dtu li{
+    padding-right:25px;
+    padding-bottom:15px;
+    list-style: none;
+}
+ul.legen_dtu li span{
+
+}
+ul.legen_dtu li span.text_box{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+ul.legen_dtu li span.box_color{
+    padding-left: 15px;
+    float: left;
+    width: 20px;
+    height: 20px;
+}

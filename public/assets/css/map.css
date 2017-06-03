@@ -1,0 +1,86 @@
+
+/* 
+    Created on : 7/out/2015, 12:40:20
+    Author     : mafonso
+*/
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#map {
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 35;
+}
+
+#map .ol-zoom {
+    top: .5em;
+    left: auto;
+    right: .5em;
+}
+
+#content {
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    width: 350px;
+    background-color: #e0e0e0;
+    z-index: 40;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#layerSwitcher h1, #layerSwitcher h2, #layerSwitcher h3, #layerSwitcher h4 {
+    cursor: pointer;
+}
+
+#layerSwitcher .list-group-item {
+    padding: 6px 15px;
+}
+
+#layerSwitcher .layer-details-toggle {
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    
+    #map {
+        position: absolute;
+        top: 50px;
+        bottom: auto;
+        height: 280px;
+        left: 0px;
+        right: 0px;
+        z-index: 35;
+    }
+
+    #content {
+        position: absolute;
+        top: 280px;
+        left: 0px;
+        width: 100%;
+        min-height: 280px;
+        background-color: #e0e0e0;
+        z-index: 40;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
+    #mapNavigation.navbar-nav>li {
+        float: left;
+    }
+    
+}
